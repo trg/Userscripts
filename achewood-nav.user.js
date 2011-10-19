@@ -41,6 +41,8 @@ function main() {
         }
         
     });
+    
+    $('#comic_body').append( "<i style='font-size:10px;color:#ccc'>" + $('#comic_body img').attr('title') + "</i>"  );
 
 }
 
